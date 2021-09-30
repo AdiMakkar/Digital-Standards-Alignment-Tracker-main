@@ -45,3 +45,4 @@ average_mnlp = my_df.sum()["NEGATIVE"] / count
 #Prints the averages.
 print ('Average for POSITIVE: ' + str(average_mpln))
 print ('Average for NEGATIVE: ' + str(average_mnlp)) 
+
