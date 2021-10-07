@@ -1,0 +1,16 @@
+REVISED PLAN 
+
+@ Oct 7th, 3:30am, Thursday: 
+1. Service_inventory is the only workable dataset
+2. The file itself contains years from 2016 to 2020 but the actual comments that can be used appear 2017 onwards (plus!)
+3. Comments are made up of telephone (tel), person (person), email (eml), online(onl), fax, post(mail), and other(oth). 
+4. Point being, what amongst the mentioned above can I include as a part of Digital Tracking
+(and something like post which has nothing do with Digital [I guess if you include package tracking or something] 
+could I include it as well?)
+5. And yes, the idea pretty much is same as the last time, automation would look a lot different because 
+this time instead of working two together I am working just one but with multiple strings in those cells 
+(and that would be the challenge yk?) 
+Basically, when I get a concrete idea on how many have what digital service inv comments for what years those go up 
+the same way as a graph and then we finish it. 
+Now the thing is idk how long it will take to wrap it up so like we discussed I'm taking the end of Oct also because I
+have my reading week last week of Oct so I can give time to my projects (one of them being this yk)
