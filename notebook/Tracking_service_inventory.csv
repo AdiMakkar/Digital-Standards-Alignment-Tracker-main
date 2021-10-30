@@ -1,21 +1,37 @@
 123456789 #test number
-247
-501
-565
-186
-592
-647
-128
-673
-724
-104
-347
-372
-66
-353
-371
-1313
-1425
-1525
-823
-790
+247 #onl 2017
+501 #onl 2018
+565 #onl 2019
+186 #tel 2017
+592 #tel 2018
+647 #tel 2019
+128 #eml 2017
+673 #eml 2018
+724 #eml 2019
+104 #phone 2017
+347 #phone 2018
+372 #phone 2019
+66 #post 2017
+353 #post 2018
+371 #post 2019
+1313 #onl total
+1425 #tel total
+1525 #eml total 
+823 #phone total 
+790 #post total 
+#Following numbers are percentages in terms of specific years for totals (17-21) and written like above (2-16),
+18.81
+38.16
+43.03
+13.05
+41.54
+45.40
+8.39
+44.13
+47.48
+12.64
+42.16
+45.20
+8.36
+44.68
+47.09
