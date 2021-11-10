@@ -7,6 +7,55 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+
+<style>
+    .large-graph {
+        height: 650px;
+        width: 100%;
+    }
+    footer {
+        padding-top: 15px;
+        padding-left: 25;
+        width: 100%;
+        background-color: #e3e3e3;
+        height: 200px;
+    }
+    footer p {
+        margin-left: 35%;
+    }
+    #darkred {background-color:darkred;}
+    .accordion {
+        background-color: #e3e3e3;
+        color: rgb(17, 17, 134);
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: slategrey;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+    .active, .accordion:hover {
+        color:rgb(28, 28, 248)
+    }
+    .accordion:after {
+        content: '\25B6';
+        color: rgb(255, 254, 254);
+        float: left;
+        font-weight: bold;
+    }
+    .active:after {
+        content: '\25BC';
+    }
+    .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    }
+</style>
 </head>
 
 <body>
@@ -15,8 +64,12 @@
         <p></p>
         <h1>Digital Standards Alignment Tracker</h1>
         <hr id="darkred">
-        <p>Our goal is to provide public services to Canadians which are simple to use and trustworthy. The Government of Canada’s Digital Standards form the foundation of the government’s shift to becoming more agile, open, and user-focused. They will guide teams in designing digital services in a way that best serves Canadians.</p>
 
+        <p>Our goal is to provide public services to Canadians which are simple to use and trustworthy. The Government of Canada’s Digital Standards form the foundation of the government’s shift to becoming more agile, open, and user-focused. They will guide teams in designing digital services in a way that best serves Canadians.</p>
+       
+        <button class="accordion">Digital Tracking context</button>
+        
+        <div class="panel">
         <p>This page represents the Digital Standards working in the open to share the analysis of alignment with the Digital Standards</p>
         <p>The information displayed here does not represent any form of performance or metrics tracking on behalf of 
             Treasury Board of Canada Secretariat (TBS) or the Government of Canada (GC).</p>
@@ -35,12 +88,17 @@
             with a Digital Standard. In the spirit of working in the open, the work presently underway can be viewed 
             <a href="https://docs.google.com/document/d/14pOf4rkhmlY0-DDQQGSgc3oLd4A6nZsbraFpRozC1k4/edit?usp=sharing">here</a>.
         </p>
+        </div>
 
         <hr>
 
         <h3>Empower Staff to Deliver Better Services</h3>
+
         <p>Make sure that staff have access to the tools, training and technologies they need. Empower the team to make decisions throughout the design, build and operation of the service.</p>
 
+        <button class="accordion">Guidance: Empower staff to deliver better services</button>
+        
+        <div class="panel">
         <p>In order to promote innovation and create agility within our organizations, the teams that make up our organizations must be empowered. 
             Aim to hire good people not to tell them what to do, but to have them tell you what to do. Ensuring professional advancement is available to retain high performers throughout their career.</p>
         <p>The government manages large, highly complex, crucially important services for their users. 
@@ -52,12 +110,16 @@
         <p>The following link displays the averages with respect to eight separate questions that function all throughtout the number of years (2014, 2017-20) and represent all the subsets that report them.
             Furthermore <a href="empowerindex.html"> the availability of further subdivision on comparisons with respect to positive and negative specific subsets of specific years</a> can also be viewed for better understanding. 
         </p>
-
+        </div>
         <hr>
 
         <h3>Design with Users</h3>
+
         <p>Research with users to understand their needs and the problems we want to solve. Conduct ongoing testing with users to guide design and development.</p>
 
+        <button class="accordion">Guidance: Empower staff to deliver better services</button>
+        
+        <div class="panel">
         <p>Services should not be built based upon internal constraints or complexities of government, they should instead be built to address the needs of all users.
             To deliver value to users, one must understand and prioritize their needs. The value of a given service or initiative is a hypothesis until tested with the users of our services. 
             As such, services should not be designed against detailed information proxies such as requirements documentation or Requests for Proposal, as these are only hypotheses. 
@@ -65,9 +127,9 @@
             At the end of the day, requirements for services are built first and foremost with the needs of all users in mind. 
             The division of services in terms of their <a href = "designindex.html"> percentages over the course of 3 years (2017-2019)</a> showcases how needs evolved 
             and the number of services grew while making sure the design concept also implements easy and safe access.</p>
-
+        </div>
         <hr> 
-        
+
         <h2>Total Digital Tracking</h2>
         <h5>The following graphs show the total percentage of all Digital Standards being tracked every year,</h5>
         
@@ -99,21 +161,22 @@
     </div>
 </footer>
 
-<style>
-    .large-graph {
-        height: 650px;
-        width: 100%;
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
     }
-    footer {
-        padding-top: 15px;
-        padding-left: 25;
-        width: 100%;
-        background-color: #e3e3e3;
-        height: 200px;
-    }
-    footer p {
-        margin-left: 35%;
-    }
-    #darkred {background-color:darkred;}
-</style>
+    </script>
+    
+    
 </html>
