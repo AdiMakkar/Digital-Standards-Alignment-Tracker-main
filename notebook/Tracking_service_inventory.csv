@@ -2,40 +2,51 @@
 247 #onl 2017
 501 #onl 2018
 565 #onl 2019
+676 #onl 2020
 186 #tel 2017
 592 #tel 2018
 647 #tel 2019
+788 #tel 2020
 128 #eml 2017
 673 #eml 2018
 724 #eml 2019
+938 #eml 2020
 104 #person 2017
 347 #person 2018
 372 #person 2019
+455 #person 2020
 66 #post 2017
 353 #post 2018
 371 #post 2019
-1313 #onl total
-1425 #tel total
-1525 #eml total 
-823 #person total 
-790 #post total 
+477 #post 2020
+1989 #onl total
+2213 #tel total
+2463 #eml total 
+1278 #person total 
+1267 #post total 
 #Following numbers are percentages in terms of specific years for totals (17-21) and written like above (2-16),
-18.81
-38.16
-43.03
-13.05
-41.54
-45.40
-8.39
-44.13
-47.48
-12.64
-42.16
-45.20
-8.36
-44.68
-47.09
+12.418
+25.189
+28.406
+33.99
+8.405
+26.751
+29.236
+35.607
+5.197
+27.324
+29.395
+38.084
+8.138
+27.152
+29.108
+35.602
+5.209
+27.861
+29.282
+37.648
 #total averages by year
-12.25
-42.13
-45.64
+7.8734
+26.8554
+29.0865
+36.1652
