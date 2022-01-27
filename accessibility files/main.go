@@ -1,4 +1,4 @@
-// Download GoLang on your device
+// Download GoLang on your device and add packages
 // Check the go version in your terminal
 go version
 
